@@ -12,6 +12,63 @@ body{
     color: #fff;
     position: absolute;
 }
+.container .machinemainbody .img2{
+    position: absolute;
+    width: 100px;
+    height: 190px;
+    margin-left: 267px;
+    margin-top: 10px;
+    z-index: 10;
+}
+.container .machinemainbody .img2 img{
+    width: auto;
+    height: 100%; 
+}
+.container .machinemainbody .img3{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 260px;
+    margin-top: 5px;
+    z-index: 9;
+}
+.container .machinemainbody .img3 img{
+    width: auto;
+    height: 100%; 
+}
+.container .anniu a{
+    position: absolute;
+    width: 40px;
+    height: 15px;
+    border-radius: 30px;
+    border: transparent;
+    margin-top: 320px;
+    margin-left: 269px;
+    border: solid 4px rgb(61, 60, 48) ;
+    background-color: rgb(37, 37, 29);
+    cursor: pointer
+}
+.container .anniu a:hover{
+    opacity: 80%;
+}
+.container .machinemainbody .jisuanpan{
+    position: absolute;
+    width: 50px;
+    height: 80px;
+    margin-top: 220px;
+    margin-left: 265px;
+    border-radius: 5px;
+    border: solid 3px rgb(61, 60, 48)  ;
+    background-color: rgb(37, 37, 29) ;
+    z-index: 12;
+}
+.container .machinemainbody .jisuanpan img{
+    margin-top: 7px;
+    margin-left: 6px;
+    width: auto;
+    height: 85%;
+    opacity: 80%;
+}
 .container{
     display: flex;
     align-items: center;
@@ -27,6 +84,7 @@ body{
     border-width: 3px;
     border-style: solid;
     background-color: rgb(134, 131, 106);
+    z-index: 9;
 }
 .container .machinemainbody .machinebody{
     background-color: rgb(230, 212, 177);
@@ -40,7 +98,7 @@ body{
     position: absolute;
 }
 .container .machinemainbody .machinebody .yinliaoqu{
-    background-color: transparent;
+    background-color: rgb(134, 131, 106);
     width: 200px;
     height: 235px;
     margin-top: 20px;
@@ -48,7 +106,7 @@ body{
     border-radius: 10px;
     border: solid 2px #111;
 }
-.container .machinemainbody .machinebody .yinliaoqu .yinliaolan .yinliaolan1{
+.container .machinemainbody .machinebody .yinliaoqu .yinliaolan1{
     position: absolute;
     background-color: rgb(230, 212, 177);
     width: 200px;
@@ -57,7 +115,7 @@ body{
     border-top: solid 2px #111;
     border-bottom: solid 2px #111;
 }
-.container .machinemainbody .machinebody .yinliaoqu .yinliaolan .yinliaolan2{
+.container .machinemainbody .machinebody .yinliaoqu .yinliaolan2{
     position: absolute;
     background-color: rgb(230, 212, 177);
     width: 200px;
@@ -66,35 +124,99 @@ body{
     border-top: solid 2px #111;
     border-bottom: solid 2px #111;
 }
+.container .machinemainbody .machinebody .yinliaoqu .yinliaolan1 .jiweix4{
+    display: flex;
+    justify-content: space-around;
+}
+.container .machinemainbody .machinebody .yinliaoqu .yinliaolan1 .jiweix4 .jiwei1{
+    background-color: #111;
+    width: 16px;
+    height: 8px;
+    border-radius: 20px;
+    margin-top: 2px;
+}
+.container .machinemainbody .machinebody .yinliaoqu .yinliaolan1 .jiweix4 .jiwei2{
+    background-color: #111;
+    width: 16px;
+    height: 8px;
+    border-radius: 20px;
+    margin-top: 2px;
+}
+.container .machinemainbody .machinebody .yinliaoqu .yinliaolan1 .jiweix4 .jiwei3{
+    background-color: #111;
+    width: 16px;
+    height: 8px;
+    border-radius: 20px;
+    margin-top: 2px;
+}
+.container .machinemainbody .machinebody .yinliaoqu .yinliaolan1 .jiweix4 .jiwei4{
+    background-color: #111;
+    width: 16px;
+    height: 8px;
+    border-radius: 20px;
+    margin-top: 2px;
+}
+.container .machinemainbody .machinebody .yinliaoqu .yinliaolan2 .jiweix42{
+    display: flex;
+    justify-content: space-around;
+}
+.container .machinemainbody .machinebody .yinliaoqu .yinliaolan2 .jiweix42 .jiwei5{
+    background-color: #111;
+    width: 16px;
+    height: 8px;
+    border-radius: 20px;
+    margin-top: 2px;
+}
+.container .machinemainbody .machinebody .yinliaoqu .yinliaolan2 .jiweix42 .jiwei6{
+    background-color: #111;
+    width: 16px;
+    height: 8px;
+    border-radius: 20px;
+    margin-top: 2px;
+}
+.container .machinemainbody .machinebody .yinliaoqu .yinliaolan2 .jiweix42 .jiwei7{
+    background-color: #111;
+    width: 16px;
+    height: 8px;
+    border-radius: 20px;
+    margin-top: 2px;
+}
+.container .machinemainbody .machinebody .yinliaoqu .yinliaolan2 .jiweix42 .jiwei8{
+    background-color: #111;
+    width: 16px;
+    height: 8px;
+    border-radius: 20px;
+    margin-top: 2px;
+}
 .container .machinemainbody .machinebody .zhuangshikou{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: transparent;
-    width: 135px;
+    width: 100px;
     height: 60px;
     margin-top: 12px;
-    margin-left: 12px;
-    border-radius: 5px;
-    border: solid 2px #111;
+    margin-left: 16px;
 }
-.container .machinemainbody .machinebody .zhuangshikou .zhuangshikou2{
-    background-color: rgb(201, 204, 165);
-    width: 135px;
-    height: 15px;
-    margin-top: 45px;
-    border-radius: 2px;
+.container .machinemainbody .machinebody .zhuangshikou img{
+    width: auto;
+    height: 100%;
+    border: #111 solid 2px;
+    border-radius: 12px;
 }
 .container .machinemainbody .machinebody .yinliaokou{
     background-color: rgb(43, 46, 40);
-    width: 180px;
+    width: 185px;
     height: 55px;
     margin-top: 16px;
-    margin-left: 12px;
+    margin-left: 18px;
     border-radius: 3px;
     border: solid 2px rgb(13, 14, 12);
 }
 .container .machinemainbody .machinebody .yinliaokou .yinliaokoushang{
     background-color: rgb(61, 60, 48);
-    width: 180px;
-    height: 25px;
+    width: 185px;
+    height: 15px;
     border-radius: 3px;
 }
 .container .machinemainbody .machinebody .yinliaokou .yinliaokoushang .triangledown{
@@ -103,7 +225,7 @@ body{
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
     border-top: 10px solid rgb(163, 142, 109);
-    margin-left: 72.5px;
+    margin-left: 77.5px;
     opacity: 70%;
 }
 .container .machinemainbody .machinebody .yinliaokou .yinliaokoushang .Getithere{
@@ -118,6 +240,15 @@ body{
     background-color: #111;
     width: 240px;
     height: 4px;
-    margin-top: 15px;
-    border-radius: 40px;
+    margin-top: 20px;
+}
+.container .machinemainbody .jiqidibu{
+    position: relative;
+    background-color: #111;
+    width: 275px;
+    height: 11px;
+    top: 450px;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+    z-index: 11;
 }
