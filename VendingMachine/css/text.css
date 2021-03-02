@@ -3,7 +3,7 @@
     margin: 0;
 }
 body{
-    background-color: #4e1109;
+    background-color: #fff;
 }
 .container1{
     display: flex;
@@ -19,9 +19,210 @@ body{
     align-items: center;
 }
 .container1 .img6 img{
-    width: 70px;
+    width: 40px;
     height: auto;
 }
+.topredmargin{
+    width: 1200px;
+    height: 60px;
+    background-color: #4e1109;
+    margin: 0 auto;
+}
 .container2{
-    color: white;
+    position: relative;
+    top: 60px;
+    margin-left: 150px;
+    margin-right: 150px;
+    white-space: nowrap;
+}  
+.container2 .img9{
+    display: flex;
+    justify-content: center;
+}
+.container2 .img9 img:hover{
+    animation: xuanzhuan 2s infinite linear;
+}
+@keyframes xuanzhuan{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.container2 .img9 img{
+    width: auto;
+    height: 100px;
+}
+.container2 .title{
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Righteous', cursive;
+    margin-top: 40px;
+}
+.container2 .title:hover{
+    color: #4e1109;
+}
+.container2 .xuyan{
+    text-align: center;
+    margin-top: 40px;
+    color: #4e1109;
+    font-family: 'Arapey', serif;
+}
+.container2 .hengxian{
+    width: 200px;
+    height: 2px;
+    position: relative;
+    top: 30px;
+    background-color: #4e1109;
+    border-radius: 30px;
+    margin: 0 auto;
+    opacity: 50%;
+}
+.container2 .xuyan2{
+    font-family: 'Arapey', serif;
+    margin-top: 45px;
+    font-size: 16px;
+    font-family: 'DotGothic16', sans-serif;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    opacity: 50%;
+}
+.container3{
+    position: relative;
+    top: 70px;
+    width: 46%;
+    height: 300px;
+    margin: 0 auto;
+}
+.paragraph1{
+    border-top: 20px transparent solid;
+    padding: 20px;
+}
+.paragraph1 p{
+    font-family: 'DotGothic16', sans-serif;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+}
+.paragraph2{
+    border-top: 50px transparent solid;
+    padding: 20px;
+}
+.paragraph2 p{
+    font-family: 'DotGothic16', sans-serif;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+}
+.paragraph3{
+    border-top: 30px transparent solid;
+    padding: 20px;
+}
+.paragraph3 p{
+    font-family: 'DotGothic16', sans-serif;
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #4e1109;
+}
+.paragraph4{
+    border-top: 30px transparent solid;
+    padding: 20px;
+}
+.paragraph4 p{
+    font-family: 'DotGothic16', sans-serif;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+}
+.paragraph5{
+    border-top: 50px transparent solid;
+    padding: 20px;
+}
+.paragraph5 p{
+    font-family: 'DotGothic16', sans-serif;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+}
+.paragraph6{
+    border-top: 50px transparent solid;
+    padding: 20px;
+}
+.paragraph6 p{
+    font-family: 'DotGothic16', sans-serif;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+}
+.paragraph7{
+    border-top: 30px transparent solid;
+    padding: 20px;
+}
+.paragraph7 p{
+    font-family: 'DotGothic16', sans-serif;
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #4e1109;
+}
+.paragraph8{
+    border-top: 30px transparent solid;
+    padding: 20px;
+}
+.paragraph8 p{
+    font-family: 'DotGothic16', sans-serif;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+}
+.xuyan3{
+    position: relative;
+    top: 85px;
+    text-align: center;
+    color: #4e1109;
+    font-family: 'Arapey', serif;
+}
+.hengxian2{
+    width: 200px;
+    height: 2px;
+    position: relative;
+    top: 60px;
+    background-color: #4e1109;
+    border-radius: 30px;
+    margin: 0 auto;
+    opacity: 50%;
+}
+.dibu{
+    width: 100%;
+    height: 300px;
+    background-color: transparent;
+}
+.container4{
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    justify-content: center;
+}
+.container4 .jiantouleft img{
+    position: fixed;
+    top: 380px;
+    left: 20px;
+    width: 50px;
+    height: auto;
+}
+.container4 .jiantouleft img:hover{
+    opacity: 80%;
+    width: 45px;
+    height: auto;
+}
+.container4 .jiantouright img{
+    position: fixed;
+    top: 380px;
+    right: 20px;
+    width: 50px;
+    height: auto;
+}
+.container4 .jiantouright img:hover{
+    opacity: 80%;
+    width: 45px;
+    height: auto;
 }

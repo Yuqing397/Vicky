@@ -63,17 +63,29 @@ body{
     filter: drop-shadow(5px 5px 5px #111);
     animation: rotate 3s infinite ease-in-out;
 }
+.container2 .img678 .img6 img:hover{
+    animation-play-state: paused;
+    opacity: 70%;
+}
 .container2 .img678 .img7 img{
     width: 100px;
     height: auto;
     filter: drop-shadow(5px 5px 5px #111);
     animation: rotate 3s infinite ease-in-out;
 }
+.container2 .img678 .img7 img:hover{
+    animation-play-state: paused;
+    opacity: 70%;
+}
 .container2 .img678 .img8 img{
     width: 100px;
     height: auto;
     filter: drop-shadow(5px 5px 5px #111);
     animation: rotate 3s infinite ease-in-out;
+}
+.container2 .img678 .img8 img:hover{
+    animation-play-state: paused;
+    opacity: 70%;
 }
 @keyframes rotate{
     0%{
