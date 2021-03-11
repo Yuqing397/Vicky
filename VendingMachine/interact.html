@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vicky</title>
+    <link rel="stylesheet" href="./css/interact.css">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Jost&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="waibukuang"></div>
+    <div class="neibukuang"></div>
+    <div class="backgroundsquare"></div>
+    <div class="container1">
+        <input type="text" class="txtb" placeholder="Type here!">
+        <div class="note">
+            <h3>NOTES</h3>
+            <div class="task">
+                Hi Guys!
+            </div>
+            <div class="task">
+                You can leave a message in this page!
+            </div>
+
+        </div>
+        <div class="fanhui">
+            <a href="index.html">
+                <span>Back to homepage</span>
+            </a>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+    $(".txtb").on("keyup",function(e){
+        if(e.keyCode == 13 && $(".txtb").val()!= "")
+        {
+            var task = $ ("<div class='task'></div>").text($(".txtb").val());
+            var del = $ ("<i class='fas fa-trash-alt'></i>").click(function(){
+                var p = $(this).parent();
+                p.fadeOut(function(){
+                    p.remove();
+                })
+            });
+
+            task.append(del);
+            $(".note").append(task);
+            $(".txtb").val("");
+        }
+    });
+    </script>
+
+    <script type="text/javascript">
+    document.onkeydown = function(e){
+        var ev = window.event || e;
+        var code = ev.keyCode || ex.which;
+        if(code ==116){
+            ev.keyCode ? ev.keyCode = 0 : ev.which = 0;
+            cancelBybble = true;
+            return false
+        }
+        document.oncontextmenu=function(){return false};
+    }
+    </script>
+</body>
+</html>

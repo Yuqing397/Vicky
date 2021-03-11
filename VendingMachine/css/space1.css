@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #fff;
+}
+.container1{
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    width: 100%;
+    position: fixed;
+    _position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 999;
+    white-space: nowrap;
+    align-items: center;
+}
+.container1 .img6 img{
+    width: 40px;
+    height: auto;
+}
+.topredmargin{
+    width: 1200px;
+    height: 80px;
+    background-color: #4e1109;
+    margin: 0 auto;
+}
+.container2 .video1{
+    position: absolute;
+    top: 260px;
+    left: 630px;
+    width: auto;
+    height: 30%;
+}
+.videoframe{
+    position: absolute;
+    top: 250px;
+    left: 640px;
+    margin-right: 20px;
+    width: 560px;
+    height: 300px;
+    z-index: 999;
+}
+.videoframe img{
+    width: 100%;
+    height: auto;
+}
+.container4{
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    justify-content: center;
+}
+.container4 .jiantouleft img{
+    position: fixed;
+    top: 380px;
+    left: 20px;
+    width: 50px;
+    height: auto;
+}
+.container4 .jiantouleft img:hover{
+    opacity: 80%;
+    width: 45px;
+    height: auto;
+}
+.container4 .jiantouright img{
+    position: fixed;
+    top: 380px;
+    right: 20px;
+    width: 50px;
+    height: auto;
+}
+.container4 .jiantouright img:hover{
+    opacity: 80%;
+    width: 45px;
+    height: auto;
+}
+.container5 .img13{
+    width: 230px;
+    height: 400px;
+    position: absolute;
+    left: 280px;
+    top: 130px;
+}
+.container5 .img13 img{
+    width: 100%;
+    height: auto;
+}
+.title p{
+    position: absolute;
+    left: 810px;
+    top: 90px;
+    font-size: 50px;
+    font-family: 'Righteous', cursive;
+    white-space: nowrap;
+}
